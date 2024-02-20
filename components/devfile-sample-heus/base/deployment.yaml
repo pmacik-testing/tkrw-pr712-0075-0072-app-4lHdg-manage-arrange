@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-heus
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0072-tenant/tkrw-pr712-0075-0072-app/devfile-sample-heus@sha256:67c9762b03c34e2d6f44ec73ed05f22aa20a77f82f61fe96b4421a12fa7decf1
         name: my-nodejs
         ports:
         - containerPort: 3001
